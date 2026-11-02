@@ -3,6 +3,9 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:020617,35:0C4A6E,70:0369A1,100:38BDF8&text=NILOJAN%20%2F%2F%20TECHNOLOGY&fontColor=FFFFFF&fontSize=34&fontAlignY=40&desc=AI%20%E2%80%A2%20IOT%20%E2%80%A2%20SOFTWARE%20ENGINEERING&descSize=14&descAlignY=65" alt="Futuristic blue tech banner"/>
 
+<!-- Cute animated robot mascot GIF -->
+<img width="180" src="https://raw.githubusercontent.com/amritasoni-dev/AI-Mascot/main/Airi.gif" alt="Cute animated AI robot mascot"/>
+
 <p>
 <img src="https://img.shields.io/badge/SYSTEM-ONLINE-38BDF8?style=flat-square&logo=linux&logoColor=white"/>
 <img src="https://img.shields.io/badge/AI%20CORE-ACTIVE-0EA5E9?style=flat-square&logo=openai&logoColor=white"/>
