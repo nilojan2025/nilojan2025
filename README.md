@@ -1,7 +1,7 @@
-<!-- NILOJAN // RETRO NEON PROFILE -->
+<!-- NILOJAN // BLUE FUTURE PROFILE -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:090014,20:2D0757,50:6D28D9,75:DB2777,100:06B6D4&text=NILOJAN&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=AI%20%7C%20DATA%20STRUCTURES%20%7C%20IOT%20%7C%20WEB%20DEVELOPMENT&descSize=13&descAlignY=65&animation=twinkling" alt="Retro neon purple animated banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:020617,20:082F49,45:075985,70:0284C7,100:22D3EE&text=NILOJAN&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=AI%20%7C%20DATA%20STRUCTURES%20%7C%20IOT%20%7C%20WEB%20DEVELOPMENT&descSize=13&descAlignY=65&animation=twinkling" alt="Blue animated futuristic banner"/>
 
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/GITHUB-1A1028?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/PROJECTS-7C3AED?style=for-the-badge&logo=git&logoColor=white"/></a>
@@ -57,7 +57,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:090014,50:6D28D9,100:DB2777&section=footer&animation=twinkling" alt="Neon footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:020617,50:075985,100:22D3EE&section=footer&animation=twinkling" alt="Blue animated footer"/>
 
 <sub>✨ KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING ✨</sub>
 
