@@ -46,12 +46,12 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nilojan2025&show_icons=true&hide_border=true&bg_color=0D0618&title_color=E879F9&icon_color=8B5CF6&text_color=E9D5FF" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nilojan2025&layout=compact&hide_border=true&bg_color=0D0618&title_color=E879F9&text_color=E9D5FF" alt="Most used languages"/>
+<img height="170" src="https://github-stats-extended.vercel.app/api?username=nilojan2025&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&icon_color=0EA5E9&text_color=E2E8F0" alt="GitHub stats"/>
+<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nilojan2025&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=E2E8F0" alt="Most used languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=nilojan2025&hide_border=true&background=0D0618&ring=E879F9&fire=FB7185&currStreakLabel=C084FC&sideLabels=C084FC&dates=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak"/>
+<img src="./profile/streak.svg" alt="GitHub streak stats"/>
 
 </div>
 
