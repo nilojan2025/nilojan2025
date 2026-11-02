@@ -1,130 +1,64 @@
-<!-- NILOJAN // FUTURISTIC BLUE ENGINEERING PROFILE -->
+<!-- NILOJAN // RETRO NEON PROFILE -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:020617,35:0C4A6E,70:0369A1,100:38BDF8&text=NILOJAN%20%2F%2F%20TECHNOLOGY&fontColor=FFFFFF&fontSize=34&fontAlignY=40&desc=AI%20%E2%80%A2%20IOT%20%E2%80%A2%20SOFTWARE%20ENGINEERING&descSize=14&descAlignY=65" alt="Futuristic blue tech banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:090014,20:2D0757,50:6D28D9,75:DB2777,100:06B6D4&text=NILOJAN&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=AI%20%7C%20DATA%20STRUCTURES%20%7C%20IOT%20%7C%20WEB%20DEVELOPMENT&descSize=13&descAlignY=65&animation=twinkling" alt="Retro neon purple animated banner"/>
 
-<p>
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-38BDF8?style=flat-square&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20CORE-ACTIVE-0EA5E9?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/IoT%20NODE-ESP32-0284C7?style=flat-square&logo=espressif&logoColor=white"/>
-<img src="https://komarev.com/ghpvc/?username=nilojan2025&style=flat-square&color=0284C7&label=PROFILE+SCANS"/>
-</p>
+<a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/GITHUB-1A1028?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/PROJECTS-7C3AED?style=for-the-badge&logo=git&logoColor=white"/></a>
+<a href="https://komarev.com/ghpvc/?username=nilojan2025"><img src="https://komarev.com/ghpvc/?username=nilojan2025&style=for-the-badge&color=DB2777&label=PROFILE+VISITORS"/></a>
 
-### ⟦ DIGITAL ENGINEERING INTERFACE : ONLINE ⟧
+### ✦ CONNECT WITH ME ✦
 
-**Developer · Embedded Systems Explorer · AI Builder**
-
-*Designing, building, and iterating on technology for the real world.*
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nilojan2025)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![Email](https://img.shields.io/badge/EMAIL-DB2777?style=flat-square&logo=gmail&logoColor=white)](mailto:nilojan2025@users.noreply.github.com)
 
 </div>
 
 ---
 
-## `01 // OPERATOR PROFILE`
+## 🌌 ABOUT ME
 
-```yaml
-operator: Nilojan
-role: Developer / Builder
-domains:
-  - Artificial Intelligence & intelligent agents
-  - Embedded systems / ESP32 / IoT
-  - Web interfaces & connected devices
-  - Automation and practical engineering
-workflow: Learn -> Prototype -> Test -> Iterate
-mission: Build technology that solves real-world problems
-```
+- 👨‍💻 Developer and technology enthusiast
+- 🤖 Exploring Artificial Intelligence and intelligent agents
+- ⚡ Building projects with ESP32, IoT, and embedded systems
+- 🌐 Interested in web development and automation
+- 🚀 Learn, build, experiment, and improve every day
 
-## `02 // PROJECT MODULES`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [01] ECOSORT AI
-`AI • Sustainability • Intelligent Systems`
-
-AI-powered waste management and intelligent sorting concept.
-
-[VIEW MODULE ↗](https://github.com/nilojan2025/EcoSort-AI-Intelligent-Waste-Management-AI-Agent)
-
-</td>
-<td width="50%" valign="top">
-
-### [02] ESP32 WEB CONTROL
-`ESP32 • Web UI • IoT`
-
-A web interface for remotely controlling LEDs with ESP32.
-
-[VIEW MODULE ↗](https://github.com/nilojan2025/ESP32-Web-LED-Controller)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [03] BLUETOOTH SERIAL LINK
-`ESP32 • Bluetooth • Communication`
-
-Embedded Bluetooth serial communication experiments.
-
-[VIEW MODULE ↗](https://github.com/nilojan2025/ESP32-Bluetooth-Serial-Communication)
-
-</td>
-<td width="50%" valign="top">
-
-### [04] INTERNSEEK
-`Application • Opportunity Discovery`
-
-Project focused on internship discovery.
-
-[VIEW MODULE ↗](https://github.com/nilojan2025/InternSeek)
-
-</td>
-</tr>
-</table>
-
-## `03 // TECHNOLOGY MATRIX`
+## 🛠️ TECH STACK
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,html,css,js,arduino,raspberrypi,github,vscode&theme=dark" alt="Technology icons"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/AI%20%26%20INTELLIGENCE-020617?style=for-the-badge&logo=openai&logoColor=38BDF8"/>
-<img src="https://img.shields.io/badge/EMBEDDED%20SYSTEMS-020617?style=for-the-badge&logo=espressif&logoColor=38BDF8"/>
-<img src="https://img.shields.io/badge/WEB%20ENGINEERING-020617?style=for-the-badge&logo=googlechrome&logoColor=38BDF8"/>
-<img src="https://img.shields.io/badge/PROTOTYPING-020617?style=for-the-badge&logo=arduino&logoColor=38BDF8"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,html,css,js,arduino,raspberrypi,github,vscode&theme=dark" alt="Tech stack"/>
 
 </div>
 
-## `04 // LIVE TELEMETRY`
+## 🚀 FEATURED PROJECTS
+
+| Project | Description | Tech |
+|---|---|---|
+| [EcoSort AI](https://github.com/nilojan2025/EcoSort-AI-Intelligent-Waste-Management-AI-Agent) | AI-powered waste management concept | AI |
+| [ESP32 Web LED Controller](https://github.com/nilojan2025/ESP32-Web-LED-Controller) | Web control for ESP32 LEDs | ESP32 · Web |
+| [ESP32 Bluetooth Serial](https://github.com/nilojan2025/ESP32-Bluetooth-Serial-Communication) | Bluetooth serial communication | ESP32 |
+| [InternSeek](https://github.com/nilojan2025/InternSeek) | Internship opportunity discovery | Web |
+
+## 📊 GITHUB STATS
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nilojan2025&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&icon_color=0EA5E9&text_color=E2E8F0&rank_icon=github" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nilojan2025&layout=compact&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=E2E8F0" alt="Language telemetry"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=nilojan2025&show_icons=true&hide_border=true&bg_color=0D0618&title_color=E879F9&icon_color=8B5CF6&text_color=E9D5FF" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nilojan2025&layout=compact&hide_border=true&bg_color=0D0618&title_color=E879F9&text_color=E9D5FF" alt="Most used languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=nilojan2025&hide_border=true&background=020617&ring=0EA5E9&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=7DD3FC&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak"/>
-
-</div>
-
-## `05 // NETWORK UPLINK`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GITHUB-ESTABLISH_CONNECTION-0369A1?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/nilojan2025)
-
-`CONNECTION STATUS: OPEN TO COLLABORATION`
+<img src="https://streak-stats.demolab.com?user=nilojan2025&hide_border=true&background=0D0618&ring=E879F9&fire=FB7185&currStreakLabel=C084FC&sideLabels=C084FC&dates=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak"/>
 
 </div>
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=80&color=0:020617,50:075985,100:38BDF8&section=footer" alt="Blue futuristic footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:090014,50:6D28D9,100:DB2777&section=footer&animation=twinkling" alt="Neon footer"/>
 
-<sub><code>BUILD // DEBUG // DEPLOY // EVOLVE</code></sub>
+<sub>✨ KEEP BUILDING • KEEP LEARNING • KEEP EXPLORING ✨</sub>
 
 </div>
