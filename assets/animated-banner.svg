@@ -29,6 +29,10 @@
     </filter>
   </defs>
   <style>
+    .circuitFlow { stroke-dasharray: 9 23; animation: dashMotion 5s linear infinite; }
+    .circuitFlow.back { animation-direction: reverse; }
+    .hudPulse { animation: pulsing 3.5s ease-in-out infinite; }
+    @keyframes dashMotion { to {stroke-dashoffset: -160;} }
     .star { animation: twinkle 3s ease-in-out infinite alternate; }
     .star.two { animation-delay: -1.2s; }
     .star.three { animation-delay: -2.1s; }
@@ -60,6 +64,29 @@
     <rect width="1200" height="340" rx="22" fill="url(#background)"/>
     <rect width="1200" height="340" fill="url(#grid)"/>
     <circle cx="967" cy="168" r="270" fill="url(#aura)"/>
+    <!-- Futuristic circuit-board background and animated data signals -->
+    <g fill="none" stroke="#0ea5e9" stroke-opacity=".34" stroke-width="1.5">
+      <path d="M0 33H126L152 61H231L253 38H337"/>
+      <path d="M0 322H170L195 295H334L366 324H497"/>
+      <path d="M550 0V24L573 45H721"/>
+      <path d="M745 340V305L782 273H844"/>
+      <path d="M1078 0V18L1112 48H1200"/>
+      <path d="M1070 340V315L1118 288H1200"/>
+    </g>
+    <g fill="none" stroke="#22d3ee" stroke-width="2" opacity=".70">
+      <path class="circuitFlow" d="M0 33H126L152 61H231L253 38H337"/>
+      <path class="circuitFlow back" d="M0 322H170L195 295H334L366 324H497"/>
+      <path class="circuitFlow" d="M550 0V24L573 45H721"/>
+      <path class="circuitFlow back" d="M1070 340V315L1118 288H1200"/>
+    </g>
+    <g fill="#67e8f9" class="hudPulse">
+      <circle cx="152" cy="61" r="4"/><circle cx="195" cy="295" r="4"/><circle cx="573" cy="45" r="3.5"/><circle cx="1118" cy="288" r="4"/>
+    </g>
+    <g font-family="monospace" font-size="10" letter-spacing="1.5" fill="#38bdf8" opacity=".48">
+      <text x="395" y="28">01001001 01001111 01010100</text>
+      <text x="440" y="327">ESP32 // AI // CODE</text>
+      <text x="752" y="319">SYSTEM_001</text>
+    </g>
     <path d="M0 276C250 190 400 329 651 250S1005 192 1200 238" fill="none" stroke="#0ea5e9" stroke-opacity=".12" stroke-width="2"/>
     <path d="M0 301C285 235 480 346 730 277S1054 249 1200 285" fill="none" stroke="#67e8f9" stroke-opacity=".10" stroke-width="1"/>
     <path class="beam" d="M0 0H3V340H0Z" fill="#67e8f9"/>
