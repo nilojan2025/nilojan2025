@@ -1,7 +1,7 @@
 <!-- NILOJAN // BLUE FUTURE PROFILE -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:020617,20:082F49,45:075985,70:0284C7,100:22D3EE&text=NILOJAN&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=AI%20%7C%20DATA%20STRUCTURES%20%7C%20IOT%20%7C%20WEB%20DEVELOPMENT&descSize=13&descAlignY=65&animation=twinkling" alt="Blue animated futuristic banner"/>
+<img width="100%" src="./assets/animated-banner.svg" alt="Animated blue futuristic banner for Nilojan — IoT, AI and web development"/>
 
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/GITHUB-1A1028?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/PROJECTS-7C3AED?style=for-the-badge&logo=git&logoColor=white"/></a>
