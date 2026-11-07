@@ -1,74 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
-<title id="t">Nilojan tech control center</title>
-<desc id="d">Animated blue developer dashboard with a circuit-board background, live status lights, terminal code and a futuristic waveform.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="276" viewBox="0 0 1200 276" role="img" aria-labelledby="title desc">
+<title id="title">Spider-Man themed code and web developer dashboard</title>
+<desc id="desc">An animated red and blue code terminal with webs and a spider logo, building a developer's tech identity.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030915"/><stop offset=".56" stop-color="#07253e"/><stop offset="1" stop-color="#030c22"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0284c7"/><stop offset=".45" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
-  <pattern id="mesh" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-width=".8" stroke-opacity=".10"/><circle cx="0" cy="0" r="1.4" fill="#67e8f9" opacity=".20"/></pattern>
-  <radialGradient id="light"><stop stop-color="#0ea5e9" stop-opacity=".20"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
-  <clipPath id="clip"><rect x="1" y="1" width="1198" height="238" rx="18"/></clipPath>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".65" stop-color="#081b40"/><stop offset="1" stop-color="#2e0825"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ef4444"/><stop offset=".48" stop-color="#f43f5e"/><stop offset=".52" stop-color="#3b82f6"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#f9a8d4" opacity=".10"/></pattern>
+ <clipPath id="round"><rect width="1200" height="276" rx="18"/></clipPath>
 </defs>
 <style>
-  .scan {animation:scan 9s linear infinite;}
-  .pulse {animation:pulse 2s ease-in-out infinite;}
-  .move {stroke-dasharray:4 17;animation:flow 4s linear infinite;}
-  .move2 {stroke-dasharray:7 17;animation:flow 6s linear reverse infinite;}
-  .bars {animation:bars 2s ease-in-out infinite alternate; transform-origin:50% 100%;}
-  .bars.b {animation-delay:-.8s}.bars.c {animation-delay:-1.3s}
-  .blink {animation:blink 1.2s steps(2) infinite;}
-  @keyframes scan {from{transform:translateX(-80px)}to{transform:translateX(1280px)}}
-  @keyframes flow {to{stroke-dashoffset:-150}}
-  @keyframes pulse {50%{opacity:.30}}
-  @keyframes bars {from{transform:scaleY(.35)}to{transform:scaleY(1)}}
-  @keyframes blink {50%{opacity:0}}
-  @media(prefers-reduced-motion:reduce){.scan,.pulse,.move,.move2,.bars,.blink{animation:none!important}}
+ .webTrace{stroke-dasharray:9 20;animation:trace 7s linear infinite}
+ .webTrace.reverse{animation-direction:reverse}
+ .alert{animation:flash 2s ease-in-out infinite}
+ .caret{animation:caret 1.1s steps(2) infinite}
+ .orbit{transform-origin:990px 144px;animation:spin 25s linear infinite}
+ @keyframes trace{to{stroke-dashoffset:-280}}
+ @keyframes flash{50%{opacity:.24}}
+ @keyframes caret{50%{opacity:0}}
+ @keyframes spin{to{transform:rotate(360deg)}}
+ @media(prefers-reduced-motion:reduce){.webTrace,.alert,.caret,.orbit{animation:none!important}}
 </style>
-<g clip-path="url(#clip)">
-  <rect width="1200" height="240" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="240" fill="url(#mesh)"/>
-  <circle cx="882" cy="115" r="285" fill="url(#light)"/>
-  <rect class="scan" x="0" y="0" width="1.6" height="240" fill="#67e8f9" opacity=".30"/>
-  <g fill="none" stroke="#0ea5e9" stroke-opacity=".40" stroke-width="1.7">
-    <path d="M0 52H130L160 82H260L288 54H422" />
-    <path d="M0 194H166L206 154H298L334 190H460" />
-    <path d="M700 22H800L840 62H950L985 30H1200" />
-    <path d="M732 216H837L873 185H1005L1031 211H1200" />
-    <path d="M1055 98H1200M1028 135H1200" />
-  </g>
-  <g fill="none" stroke="url(#accent)" stroke-width="2.7">
-    <path class="move" d="M0 52H130L160 82H260L288 54H422" />
-    <path class="move2" d="M0 194H166L206 154H298L334 190H460" />
-    <path class="move" d="M700 22H800L840 62H950L985 30H1200" />
-    <path class="move2" d="M732 216H837L873 185H1005L1031 211H1200" />
-  </g>
-  <g fill="#22d3ee">
-    <circle class="pulse" cx="160" cy="82" r="5"/><circle class="pulse" cx="206" cy="154" r="4"/>
-    <circle class="pulse" cx="840" cy="62" r="5"/><circle class="pulse" cx="1031" cy="211" r="5"/>
-  </g>
-  <g font-family="'Segoe UI',Arial,sans-serif">
-    <rect x="63" y="37" width="595" height="169" rx="12" fill="#020b1b" fill-opacity=".9" stroke="#0ea5e9" stroke-opacity=".55"/>
-    <rect x="63" y="37" width="595" height="35" rx="12" fill="#0c2f4c"/>
-    <rect x="63" y="59" width="595" height="13" fill="#0c2f4c"/>
-    <circle cx="84" cy="55" r="4.5" fill="#f87171"/><circle cx="102" cy="55" r="4.5" fill="#fbbf24"/><circle cx="120" cy="55" r="4.5" fill="#34d399"/>
-    <text x="155" y="59" font-size="12" font-family="monospace" letter-spacing="1.1" fill="#7dd3fc">nilojan@dev:~/workspace</text>
-    <text x="89" y="105" font-size="17" font-family="monospace" fill="#67e8f9">&gt; whoami</text>
-    <text x="89" y="134" font-size="21" font-weight="700" fill="#e0f2fe">Developer • Maker • Problem Solver</text>
-    <text x="89" y="163" font-size="15" font-family="monospace" fill="#94a3b8">$ focus --on <tspan fill="#38bdf8">AI</tspan> <tspan fill="#22d3ee">IoT</tspan> <tspan fill="#a5b4fc">WEB</tspan></text>
-    <text x="89" y="188" font-size="13" font-family="monospace" fill="#34d399">✓ Ready to learn, build and ship</text>
-    <rect class="blink" x="366" y="176" width="9" height="13" fill="#67e8f9"/>
-    <text x="755" y="83" font-family="monospace" font-size="13" letter-spacing="2.8" fill="#7dd3fc">DEVELOPER / HUD</text>
-    <text x="751" y="117" font-family="monospace" font-weight="800" font-size="22" fill="#ecfeff">SYSTEM ONLINE</text>
-    <circle class="pulse" cx="744" cy="110" r="4" fill="#34d399"/>
-    <text x="755" y="145" font-family="monospace" font-size="12" fill="#93c5fd" letter-spacing="1.5">CODE  /  CIRCUITS  /  IDEAS</text>
-    <text x="755" y="191" font-family="monospace" font-size="11" fill="#67e8f9" letter-spacing="1.8">BUILDING THE FUTURE_</text>
-    <g fill="#22d3ee" opacity=".85">
-      <rect class="bars" x="1052" y="151" width="10" height="43" rx="2"/>
-      <rect class="bars b" x="1071" y="134" width="10" height="60" rx="2"/>
-      <rect class="bars c" x="1090" y="162" width="10" height="32" rx="2"/>
-      <rect class="bars b" x="1109" y="141" width="10" height="53" rx="2"/>
-      <rect class="bars" x="1128" y="155" width="10" height="39" rx="2"/>
-    </g>
-  </g>
+<g clip-path="url(#round)">
+ <rect width="1200" height="276" fill="url(#background)"/>
+ <rect width="1200" height="276" fill="url(#dots)"/>
+ <g fill="none" stroke="#f8fafc" stroke-width="1.3" opacity=".23"><path d="M0 0L230 0"/><path d="M0 0L227.17 35.98"/><path d="M0 0L218.74 71.07"/><path d="M0 0L204.93 104.42"/><path d="M0 0L186.07 135.19"/><path d="M0 0L162.63 162.63"/><path d="M0 0L135.19 186.07"/><path d="M0 0L104.42 204.93"/><path d="M0 0L71.07 218.74"/><path d="M0 0L35.98 227.17"/><path d="M0 0L0 230"/><path d="M46 0Q39.44 3.1 45.43 7.2 M45.43 7.2Q38.47 9.24 43.75 14.21 M43.75 14.21Q36.55 15.14 40.99 20.88 M40.99 20.88Q33.73 20.67 37.21 27.04 M37.21 27.04Q30.08 25.69 32.53 32.53 M32.53 32.53Q25.69 30.08 27.04 37.21 M27.04 37.21Q20.67 33.73 20.88 40.99 M20.88 40.99Q15.14 36.55 14.21 43.75 M14.21 43.75Q9.24 38.47 7.2 45.43 M7.2 45.43Q3.1 39.44 0 46 " /><path d="M92 0Q78.88 6.21 90.87 14.39 M90.87 14.39Q76.93 18.47 87.5 28.43 M87.5 28.43Q73.1 30.28 81.97 41.77 M81.97 41.77Q67.46 41.34 74.43 54.08 M74.43 54.08Q60.16 51.38 65.05 65.05 M65.05 65.05Q51.38 60.16 54.08 74.43 M54.08 74.43Q41.34 67.46 41.77 81.97 M41.77 81.97Q30.28 73.1 28.43 87.5 M28.43 87.5Q18.47 76.93 14.39 90.87 M14.39 90.87Q6.21 78.88 0 92 " /><path d="M138 0Q118.31 9.31 136.3 21.59 M136.3 21.59Q115.4 27.71 131.25 42.64 M131.25 42.64Q109.65 45.42 122.96 62.65 M122.96 62.65Q101.19 62.01 111.64 81.11 M111.64 81.11Q90.24 77.08 97.58 97.58 M97.58 97.58Q77.08 90.24 81.11 111.64 M81.11 111.64Q62.01 101.19 62.65 122.96 M62.65 122.96Q45.42 109.65 42.64 131.25 M42.64 131.25Q27.71 115.4 21.59 136.3 M21.59 136.3Q9.31 118.31 0 138 " /><path d="M184 0Q157.75 12.42 181.73 28.78 M181.73 28.78Q153.87 36.94 174.99 56.86 M174.99 56.86Q146.19 60.56 163.95 83.53 M163.95 83.53Q134.92 82.68 148.86 108.15 M148.86 108.15Q120.33 102.77 130.11 130.11 M130.11 130.11Q102.77 120.33 108.15 148.86 M108.15 148.86Q82.68 134.92 83.53 163.95 M83.53 163.95Q60.56 146.19 56.86 174.99 M56.86 174.99Q36.94 153.87 28.78 181.73 M28.78 181.73Q12.42 157.75 0 184 " /><path d="M230 0Q197.19 15.52 227.17 35.98 M227.17 35.98Q192.33 46.18 218.74 71.07 M218.74 71.07Q182.74 75.69 204.93 104.42 M204.93 104.42Q168.65 103.35 186.07 135.19 M186.07 135.19Q150.41 128.46 162.63 162.63 M162.63 162.63Q128.46 150.41 135.19 186.07 M135.19 186.07Q103.35 168.65 104.42 204.93 M104.42 204.93Q75.69 182.74 71.07 218.74 M71.07 218.74Q46.18 192.33 35.98 227.17 M35.98 227.17Q15.52 197.19 0 230 " /></g>
+ <g fill="none" stroke="#f8fafc" stroke-width="1.3" opacity=".23"><path d="M1200 276L915 276"/><path d="M1200 276L917.9 235.44"/><path d="M1200 276L926.54 195.71"/><path d="M1200 276L940.75 157.61"/><path d="M1200 276L960.24 121.92"/><path d="M1200 276L984.61 89.36"/><path d="M1200 276L1013.36 60.61"/><path d="M1200 276L1045.92 36.24"/><path d="M1200 276L1081.61 16.75"/><path d="M1200 276L1119.71 2.54"/><path d="M1200 276L1159.44 -6.1"/><path d="M1200 276L1200 -9"/><path d="M1143 276Q1151.1 272.5 1143.58 267.89 M1143.58 267.89Q1152.1 265.58 1145.31 259.94 M1145.31 259.94Q1154.07 258.87 1148.15 252.32 M1148.15 252.32Q1156.98 252.51 1152.05 245.18 M1152.05 245.18Q1160.76 246.62 1156.92 238.67 M1156.92 238.67Q1165.34 241.34 1162.67 232.92 M1162.67 232.92Q1170.62 236.76 1169.18 228.05 M1169.18 228.05Q1176.51 232.98 1176.32 224.15 M1176.32 224.15Q1182.87 230.07 1183.94 221.31 M1183.94 221.31Q1189.58 228.1 1191.89 219.58 M1191.89 219.58Q1196.5 227.1 1200 219 " /><path d="M1086 276Q1102.21 269.01 1087.16 259.78 M1087.16 259.78Q1104.2 255.16 1090.62 243.88 M1090.62 243.88Q1108.14 241.74 1096.3 228.64 M1096.3 228.64Q1113.95 229.01 1104.1 214.37 M1104.1 214.37Q1121.51 217.25 1113.84 201.35 M1113.84 201.35Q1130.68 206.68 1125.35 189.84 M1125.35 189.84Q1141.25 197.51 1138.37 180.1 M1138.37 180.1Q1153.01 189.95 1152.64 172.3 M1152.64 172.3Q1165.74 184.14 1167.88 166.62 M1167.88 166.62Q1179.16 180.2 1183.78 163.16 M1183.78 163.16Q1193.01 178.21 1200 162 " /><path d="M1029 276Q1053.31 265.51 1030.74 251.66 M1030.74 251.66Q1056.3 244.74 1035.93 227.82 M1035.93 227.82Q1062.21 224.61 1044.45 204.96 M1044.45 204.96Q1070.93 205.52 1056.15 183.55 M1056.15 183.55Q1082.27 187.87 1070.77 164.02 M1070.77 164.02Q1096.01 172.01 1088.02 146.77 M1088.02 146.77Q1111.87 158.27 1107.55 132.15 M1107.55 132.15Q1129.52 146.93 1128.96 120.45 M1128.96 120.45Q1148.61 138.21 1151.82 111.93 M1151.82 111.93Q1168.74 132.3 1175.66 106.74 M1175.66 106.74Q1189.51 129.31 1200 105 " /><path d="M972 276Q1004.42 262.01 974.32 243.55 M974.32 243.55Q1008.4 234.32 981.24 211.76 M981.24 211.76Q1016.28 207.48 992.6 181.29 M992.6 181.29Q1027.9 182.03 1008.19 152.73 M1008.19 152.73Q1043.03 158.49 1027.69 126.69 M1027.69 126.69Q1061.35 137.35 1050.69 103.69 M1050.69 103.69Q1082.49 119.03 1076.73 84.19 M1076.73 84.19Q1106.03 103.9 1105.29 68.6 M1105.29 68.6Q1131.48 92.28 1135.76 57.24 M1135.76 57.24Q1158.32 84.4 1167.55 50.32 M1167.55 50.32Q1186.01 80.42 1200 48 " /><path d="M915 276Q955.52 258.51 917.9 235.44 M917.9 235.44Q960.5 223.9 926.54 195.71 M926.54 195.71Q970.35 190.35 940.75 157.61 M940.75 157.61Q984.88 158.54 960.24 121.92 M960.24 121.92Q1003.79 129.12 984.61 89.36 M984.61 89.36Q1026.69 102.69 1013.36 60.61 M1013.36 60.61Q1053.12 79.79 1045.92 36.24 M1045.92 36.24Q1082.54 60.88 1081.61 16.75 M1081.61 16.75Q1114.35 46.35 1119.71 2.54 M1119.71 2.54Q1147.9 36.5 1159.44 -6.1 M1159.44 -6.1Q1182.51 31.52 1200 -9 " /></g>
+ <path d="M0 241H220L252 205H392M742 18H840L872 45H1143" stroke="#ef4444" stroke-opacity=".28" stroke-width="2" fill="none"/>
+ <path class="webTrace" d="M0 241H220L252 205H392" stroke="#fb7185" stroke-width="3" fill="none"/>
+ <path class="webTrace reverse" d="M742 18H840L872 45H1143" stroke="#60a5fa" stroke-width="3" fill="none"/>
+ <rect x="70" y="37" width="697" height="198" rx="14" fill="#050b20" stroke="#3b82f6" stroke-opacity=".65" stroke-width="2"/>
+ <rect x="70" y="37" width="697" height="40" rx="14" fill="#172554"/>
+ <path d="M71 66H766V78H71Z" fill="#172554"/>
+ <circle cx="93" cy="57" r="5" fill="#ef4444"/><circle cx="112" cy="57" r="5" fill="#f59e0b"/><circle cx="131" cy="57" r="5" fill="#22c55e"/>
+ <text x="162" y="62" font-family="monospace" font-size="14" letter-spacing="1.1" fill="#bfdbfe">spider-dev@nilojan: ~/projects</text>
+ <g font-family="monospace">
+   <text x="100" y="114" font-size="19" fill="#fb7185">$ initialize --profile spider-tech</text>
+   <text x="100" y="149" font-size="18" fill="#e2e8f0">&gt; const hero = "Developer";</text>
+   <text x="100" y="178" font-size="18" fill="#93c5fd">&gt; const stack = ["Web", "AI", "IoT"];</text>
+   <text x="100" y="208" font-size="17" fill="#4ade80">✓ Friendly neighborhood code deployed!</text>
+ </g>
+ <rect class="caret" x="592" y="195" width="12" height="17" fill="#93c5fd"/>
+ <g transform="translate(989 143)">
+   <circle r="111" fill="#07182e" stroke="#ef4444" stroke-opacity=".33" stroke-width="2"/>
+   <circle class="orbit" r="92" fill="none" stroke="url(#edge)" stroke-width="3" stroke-dasharray="17 19"/>
+   <circle r="72" fill="#1d4ed8" fill-opacity=".20" stroke="#60a5fa" stroke-opacity=".35"/>
+   <g fill="none" stroke="#fb7185" stroke-width="3" opacity=".7"><path d="M-76 0H76M0-76V76M-54-54L54 54M-54 54L54-54"/></g>
+   <path d="M0-48C17-47 28-31 26-11L13 35Q0 49-13 35L-26-11C-28-31-17-47 0-48Z" fill="#ef233c" stroke="#020617" stroke-width="5"/>
+   <ellipse cx="0" cy="16" rx="10" ry="21" fill="#020617"/>
+   <ellipse cx="0" cy="-12" rx="8" ry="10" fill="#020617"/>
+   <g stroke="#ef4444" stroke-width="6" stroke-linecap="round" fill="none">
+     <path d="M-9-12L-28-34L-54-35M9-12L28-34L54-35M-9 4L-40-5L-63 4M9 4L40-5L63 4M-9 21L-29 43L-48 52M9 21L29 43L48 52"/>
+   </g>
+ </g>
+ <text x="852" y="263" font-family="monospace" font-size="12" letter-spacing="2" fill="#93c5fd">WEB SLINGER // V1.0</text>
 </g>
-<rect x="1" y="1" width="1198" height="238" rx="18" fill="none" stroke="#38bdf8" stroke-opacity=".43" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="274" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".65" stroke-width="2"/>
 </svg>
