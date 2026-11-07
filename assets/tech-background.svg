@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
+<title id="t">Nilojan tech control center</title>
+<desc id="d">Animated blue developer dashboard with a circuit-board background, live status lights, terminal code and a futuristic waveform.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030915"/><stop offset=".56" stop-color="#07253e"/><stop offset="1" stop-color="#030c22"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0284c7"/><stop offset=".45" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+  <pattern id="mesh" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-width=".8" stroke-opacity=".10"/><circle cx="0" cy="0" r="1.4" fill="#67e8f9" opacity=".20"/></pattern>
+  <radialGradient id="light"><stop stop-color="#0ea5e9" stop-opacity=".20"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip"><rect x="1" y="1" width="1198" height="238" rx="18"/></clipPath>
+</defs>
+<style>
+  .scan {animation:scan 9s linear infinite;}
+  .pulse {animation:pulse 2s ease-in-out infinite;}
+  .move {stroke-dasharray:4 17;animation:flow 4s linear infinite;}
+  .move2 {stroke-dasharray:7 17;animation:flow 6s linear reverse infinite;}
+  .bars {animation:bars 2s ease-in-out infinite alternate; transform-origin:50% 100%;}
+  .bars.b {animation-delay:-.8s}.bars.c {animation-delay:-1.3s}
+  .blink {animation:blink 1.2s steps(2) infinite;}
+  @keyframes scan {from{transform:translateX(-80px)}to{transform:translateX(1280px)}}
+  @keyframes flow {to{stroke-dashoffset:-150}}
+  @keyframes pulse {50%{opacity:.30}}
+  @keyframes bars {from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+  @keyframes blink {50%{opacity:0}}
+  @media(prefers-reduced-motion:reduce){.scan,.pulse,.move,.move2,.bars,.blink{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="240" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="240" fill="url(#mesh)"/>
+  <circle cx="882" cy="115" r="285" fill="url(#light)"/>
+  <rect class="scan" x="0" y="0" width="1.6" height="240" fill="#67e8f9" opacity=".30"/>
+  <g fill="none" stroke="#0ea5e9" stroke-opacity=".40" stroke-width="1.7">
+    <path d="M0 52H130L160 82H260L288 54H422" />
+    <path d="M0 194H166L206 154H298L334 190H460" />
+    <path d="M700 22H800L840 62H950L985 30H1200" />
+    <path d="M732 216H837L873 185H1005L1031 211H1200" />
+    <path d="M1055 98H1200M1028 135H1200" />
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.7">
+    <path class="move" d="M0 52H130L160 82H260L288 54H422" />
+    <path class="move2" d="M0 194H166L206 154H298L334 190H460" />
+    <path class="move" d="M700 22H800L840 62H950L985 30H1200" />
+    <path class="move2" d="M732 216H837L873 185H1005L1031 211H1200" />
+  </g>
+  <g fill="#22d3ee">
+    <circle class="pulse" cx="160" cy="82" r="5"/><circle class="pulse" cx="206" cy="154" r="4"/>
+    <circle class="pulse" cx="840" cy="62" r="5"/><circle class="pulse" cx="1031" cy="211" r="5"/>
+  </g>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <rect x="63" y="37" width="595" height="169" rx="12" fill="#020b1b" fill-opacity=".9" stroke="#0ea5e9" stroke-opacity=".55"/>
+    <rect x="63" y="37" width="595" height="35" rx="12" fill="#0c2f4c"/>
+    <rect x="63" y="59" width="595" height="13" fill="#0c2f4c"/>
+    <circle cx="84" cy="55" r="4.5" fill="#f87171"/><circle cx="102" cy="55" r="4.5" fill="#fbbf24"/><circle cx="120" cy="55" r="4.5" fill="#34d399"/>
+    <text x="155" y="59" font-size="12" font-family="monospace" letter-spacing="1.1" fill="#7dd3fc">nilojan@dev:~/workspace</text>
+    <text x="89" y="105" font-size="17" font-family="monospace" fill="#67e8f9">&gt; whoami</text>
+    <text x="89" y="134" font-size="21" font-weight="700" fill="#e0f2fe">Developer • Maker • Problem Solver</text>
+    <text x="89" y="163" font-size="15" font-family="monospace" fill="#94a3b8">$ focus --on <tspan fill="#38bdf8">AI</tspan> <tspan fill="#22d3ee">IoT</tspan> <tspan fill="#a5b4fc">WEB</tspan></text>
+    <text x="89" y="188" font-size="13" font-family="monospace" fill="#34d399">✓ Ready to learn, build and ship</text>
+    <rect class="blink" x="366" y="176" width="9" height="13" fill="#67e8f9"/>
+    <text x="755" y="83" font-family="monospace" font-size="13" letter-spacing="2.8" fill="#7dd3fc">DEVELOPER / HUD</text>
+    <text x="751" y="117" font-family="monospace" font-weight="800" font-size="22" fill="#ecfeff">SYSTEM ONLINE</text>
+    <circle class="pulse" cx="744" cy="110" r="4" fill="#34d399"/>
+    <text x="755" y="145" font-family="monospace" font-size="12" fill="#93c5fd" letter-spacing="1.5">CODE  /  CIRCUITS  /  IDEAS</text>
+    <text x="755" y="191" font-family="monospace" font-size="11" fill="#67e8f9" letter-spacing="1.8">BUILDING THE FUTURE_</text>
+    <g fill="#22d3ee" opacity=".85">
+      <rect class="bars" x="1052" y="151" width="10" height="43" rx="2"/>
+      <rect class="bars b" x="1071" y="134" width="10" height="60" rx="2"/>
+      <rect class="bars c" x="1090" y="162" width="10" height="32" rx="2"/>
+      <rect class="bars b" x="1109" y="141" width="10" height="53" rx="2"/>
+      <rect class="bars" x="1128" y="155" width="10" height="39" rx="2"/>
+    </g>
+  </g>
+</g>
+<rect x="1" y="1" width="1198" height="238" rx="18" fill="none" stroke="#38bdf8" stroke-opacity=".43" stroke-width="2"/>
+</svg>
