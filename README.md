@@ -1,7 +1,7 @@
 <!-- NILOJAN // SPIDER-MAN FAN-THEMED DEVELOPER PROFILE -->
 <div align="center">
 
-<img width="100%" src="./assets/spider-man-banner-v2.svg" alt="Spider-Man themed animated banner for Nilojan with red mask, blue suit and glowing web patterns"/>
+<img width="100%" src="./assets/spider-man-banner-v3.svg" alt="Spider-Man themed animated banner for Nilojan with red mask, blue suit and glowing web patterns"/>
 
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/GITHUB-DC2626?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/PROJECTS-1D4ED8?style=for-the-badge&logo=git&logoColor=white"/></a>
