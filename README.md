@@ -1,7 +1,7 @@
 <!-- NILOJAN // SPIDER-MAN FAN-THEMED DEVELOPER PROFILE -->
 <div align="center">
 
-<img width="100%" src="./assets/animated-banner.svg" alt="Spider-Man themed animated banner for Nilojan with red mask, blue suit and glowing web patterns"/>
+<img width="100%" src="./assets/spider-man-banner-v2.svg" alt="Spider-Man themed animated banner for Nilojan with red mask, blue suit and glowing web patterns"/>
 
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/GITHUB-DC2626?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/nilojan2025"><img src="https://img.shields.io/badge/PROJECTS-1D4ED8?style=for-the-badge&logo=git&logoColor=white"/></a>
@@ -27,7 +27,7 @@
 
 <div align="center">
 
-<img width="100%" src="./assets/tech-background.svg" alt="Spider-Man inspired animated developer terminal and red-blue web circuit background"/>
+<img width="100%" src="./assets/spider-tech-panel-v2.svg" alt="Spider-Man inspired animated developer terminal and red-blue web circuit background"/>
 
 </div>
 
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-<img width="100%" src="./assets/tech-footer.svg" alt="Spider-Man inspired animated web footer with superhero mask and motivational motto"/>
+<img width="100%" src="./assets/spider-man-footer-v2.svg" alt="Spider-Man inspired animated web footer with superhero mask and motivational motto"/>
 
 <sub>🕸️ YOUR FRIENDLY NEIGHBORHOOD DEVELOPER • KEEP BUILDING • KEEP EXPLORING 🕷️</sub>
 
