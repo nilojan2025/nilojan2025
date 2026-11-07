@@ -1,60 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="195" viewBox="0 0 1200 195" role="img" aria-labelledby="ft fd">
-<title id="ft">Nilojan futuristic animated footer</title>
-<desc id="fd">Animated neon blue circuit-board footer reading Keep Building, Keep Learning, Keep Exploring.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">Spider-Man themed animated footer for Nilojan</title>
+<desc id="desc">Neon red and blue Spider-Man web footer with dangling spider icon and Keep Building Keep Learning Keep Exploring.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030917"/><stop offset=".58" stop-color="#06253b"/><stop offset="1" stop-color="#040d22"/></linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0284c7"/><stop offset=".48" stop-color="#67e8f9"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#38bdf8" stroke-opacity=".085"/><circle r="1.1" fill="#7dd3fc" opacity=".23"/></pattern>
-  <clipPath id="edge"><rect x="1" y="1" width="1198" height="193" rx="18"/></clipPath>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070a1a"/><stop offset=".58" stop-color="#0e1e48"/><stop offset="1" stop-color="#380d2c"/></linearGradient>
+ <linearGradient id="electric" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ef4444"/><stop offset=".50" stop-color="#f43f5e"/><stop offset=".51" stop-color="#2563eb"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+ <pattern id="dotted" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#fecdd3" opacity=".14"/></pattern>
+ <clipPath id="cl"><rect width="1200" height="230" rx="18"/></clipPath>
 </defs>
 <style>
-  .dash {stroke-dasharray:14 22;animation:travel 5s linear infinite;}
-  .dash.back {animation-duration:7s;animation-direction:reverse;}
-  .blink {animation:blink 2s ease-in-out infinite alternate;}
-  .bar {animation:levels 1.6s ease-in-out infinite alternate;transform-origin:50% 100%;}
-  .bar.b {animation-delay:-.5s}.bar.c {animation-delay:-1.1s}
-  .cursor {animation:cursor 1.1s steps(2) infinite;}
-  @keyframes travel {to{stroke-dashoffset:-220}}
-  @keyframes blink {to{opacity:.18}}
-  @keyframes levels {to{transform:scaleY(.27)}}
-  @keyframes cursor {to{opacity:0}}
-  @media(prefers-reduced-motion:reduce){.dash,.blink,.bar,.cursor{animation:none!important}}
+ .flow{stroke-dasharray:15 23;animation:travel 6s linear infinite}
+ .reverse{animation-direction:reverse}
+ .hanger{animation:swing 3s ease-in-out infinite;transform-origin:600px 0px}
+ .light{animation:flicker 2.5s ease-in-out infinite}
+ .cursor{animation:caret 1s steps(2) infinite}
+ @keyframes travel{to{stroke-dashoffset:-232}}
+ @keyframes swing{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+ @keyframes flicker{50%{opacity:.38}}
+ @keyframes caret{50%{opacity:0}}
+ @media(prefers-reduced-motion:reduce){.flow,.reverse,.hanger,.light,.cursor{animation:none!important}}
 </style>
-<g clip-path="url(#edge)">
-  <rect width="1200" height="195" fill="url(#bg)"/>
-  <rect width="1200" height="195" fill="url(#grid)"/>
-  <path d="M0 19H350L383 48H451" stroke="#38bdf8" stroke-opacity=".45" stroke-width="2" fill="none"/>
-  <path d="M0 19H350L383 48H451" class="dash" stroke="url(#line)" stroke-width="2" fill="none"/>
-  <path d="M1200 24H980L940 63H775" stroke="#38bdf8" stroke-opacity=".42" stroke-width="2" fill="none"/>
-  <path d="M1200 24H980L940 63H775" class="dash back" stroke="url(#line)" stroke-width="2" fill="none"/>
-  <path d="M0 167H310L346 133H451" stroke="#38bdf8" stroke-opacity=".42" stroke-width="2" fill="none"/>
-  <path d="M0 167H310L346 133H451" class="dash back" stroke="url(#line)" stroke-width="2" fill="none"/>
-  <path d="M1200 166H1012L981 136H788" stroke="#38bdf8" stroke-opacity=".42" stroke-width="2" fill="none"/>
-  <path d="M1200 166H1012L981 136H788" class="dash" stroke="url(#line)" stroke-width="2" fill="none"/>
-  <circle class="blink" cx="383" cy="48" r="5" fill="#67e8f9"/>
-  <circle class="blink" cx="940" cy="63" r="5" fill="#67e8f9"/>
-  <circle class="blink" cx="346" cy="133" r="5" fill="#67e8f9"/>
-  <circle class="blink" cx="981" cy="136" r="5" fill="#67e8f9"/>
-  <rect x="385" y="51" width="430" height="91" rx="12" fill="#031528" stroke="#0ea5e9" stroke-width="1.4" stroke-opacity=".75"/>
-  <path d="M404 69H796" stroke="#0ea5e9" stroke-opacity=".35"/>
-  <g font-family="'Segoe UI',Arial,sans-serif" text-anchor="middle">
-    <text x="600" y="77" font-family="monospace" letter-spacing="3" font-size="11" fill="#7dd3fc">NILOJAN // END OF TRANSMISSION</text>
-    <text x="600" y="108" font-size="24" font-weight="700" fill="#e0faff" letter-spacing="1">KEEP BUILDING. KEEP LEARNING.</text>
-    <text x="600" y="131" font-size="17" font-weight="600" fill="#22d3ee" letter-spacing="3">KEEP EXPLORING_</text>
-  </g>
-  <rect class="cursor" x="709" y="117" width="10" height="16" fill="#67e8f9"/>
-  <g fill="#22d3ee">
-    <rect class="bar" x="80" y="73" width="7" height="45" rx="2"/>
-    <rect class="bar b" x="95" y="58" width="7" height="60" rx="2"/>
-    <rect class="bar c" x="110" y="86" width="7" height="32" rx="2"/>
-    <rect class="bar b" x="125" y="65" width="7" height="53" rx="2"/>
-    <rect class="bar" x="1067" y="70" width="7" height="48" rx="2"/>
-    <rect class="bar c" x="1082" y="86" width="7" height="32" rx="2"/>
-    <rect class="bar b" x="1097" y="59" width="7" height="59" rx="2"/>
-    <rect class="bar" x="1112" y="78" width="7" height="40" rx="2"/>
-  </g>
-  <text x="33" y="184" font-family="monospace" font-size="10" fill="#38bdf8" opacity=".65">01001110 01001001 01001100</text>
-  <text x="970" y="184" font-family="monospace" font-size="11" fill="#38bdf8" opacity=".7">STATUS: ONLINE</text>
+<g clip-path="url(#cl)">
+ <rect width="1200" height="230" fill="url(#night)"/><rect width="1200" height="230" fill="url(#dotted)"/>
+ <g fill="none" stroke="#f8fafc" stroke-width="1.3" opacity=".23"><path d="M0 0L255 0"/><path d="M0 0L252.82 33.28"/><path d="M0 0L246.31 66"/><path d="M0 0L235.59 97.58"/><path d="M0 0L220.84 127.5"/><path d="M0 0L202.31 155.23"/><path d="M0 0L180.31 180.31"/><path d="M0 0L155.23 202.31"/><path d="M0 0L127.5 220.84"/><path d="M0 0L97.58 235.59"/><path d="M0 0L66 246.31"/><path d="M0 0L33.28 252.82"/><path d="M0 0L0 255"/><path d="M42.5 0Q36.47 2.39 42.14 5.55 M42.14 5.55Q35.85 7.13 41.05 11 M41.05 11Q34.61 11.75 39.26 16.26 M39.26 16.26Q32.78 16.17 36.81 21.25 M36.81 21.25Q30.39 20.31 33.72 25.87 M33.72 25.87Q27.48 24.1 30.05 30.05 M30.05 30.05Q24.1 27.48 25.87 33.72 M25.87 33.72Q20.31 30.39 21.25 36.81 M21.25 36.81Q16.17 32.78 16.26 39.26 M16.26 39.26Q11.75 34.61 11 41.05 M11 41.05Q7.13 35.85 5.55 42.14 M5.55 42.14Q2.39 36.47 0 42.5 " /><path d="M85 0Q72.94 4.78 84.27 11.09 M84.27 11.09Q71.7 14.26 82.1 22 M82.1 22Q69.22 23.5 78.53 32.53 M78.53 32.53Q65.56 32.33 73.61 42.5 M73.61 42.5Q60.78 40.61 67.44 51.74 M67.44 51.74Q54.96 48.2 60.1 60.1 M60.1 60.1Q48.2 54.96 51.74 67.44 M51.74 67.44Q40.61 60.78 42.5 73.61 M42.5 73.61Q32.33 65.56 32.53 78.53 M32.53 78.53Q23.5 69.22 22 82.1 M22 82.1Q14.26 71.7 11.09 84.27 M11.09 84.27Q4.78 72.94 0 85 " /><path d="M127.5 0Q109.42 7.17 126.41 16.64 M126.41 16.64Q107.54 21.39 123.16 33 M123.16 33Q103.83 35.25 117.79 48.79 M117.79 48.79Q98.34 48.5 110.42 63.75 M110.42 63.75Q91.17 60.92 101.15 77.62 M101.15 77.62Q82.44 72.3 90.16 90.16 M90.16 90.16Q72.3 82.44 77.62 101.15 M77.62 101.15Q60.92 91.17 63.75 110.42 M63.75 110.42Q48.5 98.34 48.79 117.79 M48.79 117.79Q35.25 103.83 33 123.16 M33 123.16Q21.39 107.54 16.64 126.41 M16.64 126.41Q7.17 109.42 0 127.5 " /><path d="M170 0Q145.89 9.56 168.55 22.19 M168.55 22.19Q143.39 28.52 164.21 44 M164.21 44Q138.44 46.99 157.06 65.06 M157.06 65.06Q131.12 64.66 147.22 85 M147.22 85Q121.56 81.22 134.87 103.49 M134.87 103.49Q109.92 96.4 120.21 120.21 M120.21 120.21Q96.4 109.92 103.49 134.87 M103.49 134.87Q81.22 121.56 85 147.22 M85 147.22Q64.66 131.12 65.06 157.06 M65.06 157.06Q46.99 138.44 44 164.21 M44 164.21Q28.52 143.39 22.19 168.55 M22.19 168.55Q9.56 145.89 0 170 " /><path d="M212.5 0Q182.36 11.95 210.68 27.74 M210.68 27.74Q179.24 35.65 205.26 55 M205.26 55Q173.05 58.74 196.32 81.32 M196.32 81.32Q163.9 80.83 184.03 106.25 M184.03 106.25Q151.95 101.53 168.59 129.36 M168.59 129.36Q137.4 120.5 150.26 150.26 M150.26 150.26Q120.5 137.4 129.36 168.59 M129.36 168.59Q101.53 151.95 106.25 184.03 M106.25 184.03Q80.83 163.9 81.32 196.32 M81.32 196.32Q58.74 173.05 55 205.26 M55 205.26Q35.65 179.24 27.74 210.68 M27.74 210.68Q11.95 182.36 0 212.5 " /><path d="M255 0Q218.83 14.34 252.82 33.28 M252.82 33.28Q215.09 42.78 246.31 66 M246.31 66Q207.66 70.49 235.59 97.58 M235.59 97.58Q196.68 96.99 220.84 127.5 M220.84 127.5Q182.34 121.84 202.31 155.23 M202.31 155.23Q164.88 144.59 180.31 180.31 M180.31 180.31Q144.59 164.88 155.23 202.31 M155.23 202.31Q121.84 182.34 127.5 220.84 M127.5 220.84Q96.99 196.68 97.58 235.59 M97.58 235.59Q70.49 207.66 66 246.31 M66 246.31Q42.78 215.09 33.28 252.82 M33.28 252.82Q14.34 218.83 0 255 " /></g>
+ <g fill="none" stroke="#f8fafc" stroke-width="1.3" opacity=".23"><path d="M1200 0L1200 255"/><path d="M1200 0L1166.72 252.82"/><path d="M1200 0L1134 246.31"/><path d="M1200 0L1102.42 235.59"/><path d="M1200 0L1072.5 220.84"/><path d="M1200 0L1044.77 202.31"/><path d="M1200 0L1019.69 180.31"/><path d="M1200 0L997.69 155.23"/><path d="M1200 0L979.16 127.5"/><path d="M1200 0L964.41 97.58"/><path d="M1200 0L953.69 66"/><path d="M1200 0L947.18 33.28"/><path d="M1200 0L945 0"/><path d="M1200 42.5Q1197.61 36.47 1194.45 42.14 M1194.45 42.14Q1192.87 35.85 1189 41.05 M1189 41.05Q1188.25 34.61 1183.74 39.26 M1183.74 39.26Q1183.83 32.78 1178.75 36.81 M1178.75 36.81Q1179.69 30.39 1174.13 33.72 M1174.13 33.72Q1175.9 27.48 1169.95 30.05 M1169.95 30.05Q1172.52 24.1 1166.28 25.87 M1166.28 25.87Q1169.61 20.31 1163.19 21.25 M1163.19 21.25Q1167.22 16.17 1160.74 16.26 M1160.74 16.26Q1165.39 11.75 1158.95 11 M1158.95 11Q1164.15 7.13 1157.86 5.55 M1157.86 5.55Q1163.53 2.39 1157.5 0 " /><path d="M1200 85Q1195.22 72.94 1188.91 84.27 M1188.91 84.27Q1185.74 71.7 1178 82.1 M1178 82.1Q1176.5 69.22 1167.47 78.53 M1167.47 78.53Q1167.67 65.56 1157.5 73.61 M1157.5 73.61Q1159.39 60.78 1148.26 67.44 M1148.26 67.44Q1151.8 54.96 1139.9 60.1 M1139.9 60.1Q1145.04 48.2 1132.56 51.74 M1132.56 51.74Q1139.22 40.61 1126.39 42.5 M1126.39 42.5Q1134.44 32.33 1121.47 32.53 M1121.47 32.53Q1130.78 23.5 1117.9 22 M1117.9 22Q1128.3 14.26 1115.73 11.09 M1115.73 11.09Q1127.06 4.78 1115 0 " /><path d="M1200 127.5Q1192.83 109.42 1183.36 126.41 M1183.36 126.41Q1178.61 107.54 1167 123.16 M1167 123.16Q1164.75 103.83 1151.21 117.79 M1151.21 117.79Q1151.5 98.34 1136.25 110.42 M1136.25 110.42Q1139.08 91.17 1122.38 101.15 M1122.38 101.15Q1127.7 82.44 1109.84 90.16 M1109.84 90.16Q1117.56 72.3 1098.85 77.62 M1098.85 77.62Q1108.83 60.92 1089.58 63.75 M1089.58 63.75Q1101.66 48.5 1082.21 48.79 M1082.21 48.79Q1096.17 35.25 1076.84 33 M1076.84 33Q1092.46 21.39 1073.59 16.64 M1073.59 16.64Q1090.58 7.17 1072.5 0 " /><path d="M1200 170Q1190.44 145.89 1177.81 168.55 M1177.81 168.55Q1171.48 143.39 1156 164.21 M1156 164.21Q1153.01 138.44 1134.94 157.06 M1134.94 157.06Q1135.34 131.12 1115 147.22 M1115 147.22Q1118.78 121.56 1096.51 134.87 M1096.51 134.87Q1103.6 109.92 1079.79 120.21 M1079.79 120.21Q1090.08 96.4 1065.13 103.49 M1065.13 103.49Q1078.44 81.22 1052.78 85 M1052.78 85Q1068.88 64.66 1042.94 65.06 M1042.94 65.06Q1061.56 46.99 1035.79 44 M1035.79 44Q1056.61 28.52 1031.45 22.19 M1031.45 22.19Q1054.11 9.56 1030 0 " /><path d="M1200 212.5Q1188.05 182.36 1172.26 210.68 M1172.26 210.68Q1164.35 179.24 1145 205.26 M1145 205.26Q1141.26 173.05 1118.68 196.32 M1118.68 196.32Q1119.17 163.9 1093.75 184.03 M1093.75 184.03Q1098.47 151.95 1070.64 168.59 M1070.64 168.59Q1079.5 137.4 1049.74 150.26 M1049.74 150.26Q1062.6 120.5 1031.41 129.36 M1031.41 129.36Q1048.05 101.53 1015.97 106.25 M1015.97 106.25Q1036.1 80.83 1003.68 81.32 M1003.68 81.32Q1026.95 58.74 994.74 55 M994.74 55Q1020.76 35.65 989.32 27.74 M989.32 27.74Q1017.64 11.95 987.5 0 " /><path d="M1200 255Q1185.66 218.83 1166.72 252.82 M1166.72 252.82Q1157.22 215.09 1134 246.31 M1134 246.31Q1129.51 207.66 1102.42 235.59 M1102.42 235.59Q1103.01 196.68 1072.5 220.84 M1072.5 220.84Q1078.16 182.34 1044.77 202.31 M1044.77 202.31Q1055.41 164.88 1019.69 180.31 M1019.69 180.31Q1035.12 144.59 997.69 155.23 M997.69 155.23Q1017.66 121.84 979.16 127.5 M979.16 127.5Q1003.32 96.99 964.41 97.58 M964.41 97.58Q992.34 70.49 953.69 66 M953.69 66Q984.91 42.78 947.18 33.28 M947.18 33.28Q981.17 14.34 945 0 " /></g>
+ <g fill="none" stroke="#3b82f6" stroke-opacity=".40" stroke-width="2">
+  <path d="M0 170H235L275 132H390M1200 170H963L925 132H810"/>
+ </g>
+ <g fill="none" stroke="url(#electric)" stroke-width="3">
+  <path class="flow" d="M0 170H235L275 132H390"/>
+  <path class="flow reverse" d="M1200 170H963L925 132H810"/>
+ </g>
+ <g class="hanger">
+   <path d="M600 0V47" stroke="#f8fafc" stroke-opacity=".65" stroke-width="2"/>
+   <circle cx="600" cy="67" r="24" fill="#ef233c" stroke="#031126" stroke-width="6"/>
+   <path d="M586 65Q591 58 599 67Q594 76 589 77Z M614 65Q609 58 601 67Q606 76 611 77Z" fill="#fff"/>
+   <path d="M600 44V88M580 54Q600 60 620 54M578 69Q600 77 622 69" stroke="#410e28" stroke-width="1.2" fill="none"/>
+ </g>
+ <rect x="310" y="90" width="580" height="108" rx="15" fill="#020a1e" fill-opacity=".90" stroke="url(#electric)" stroke-width="2"/>
+ <g font-family="'Segoe UI',Arial,sans-serif" text-anchor="middle">
+   <text x="600" y="116" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2.5" fill="#fb7185">YOUR FRIENDLY NEIGHBORHOOD DEVELOPER</text>
+   <text x="600" y="152" font-size="27" font-weight="900" fill="#f8fafc">KEEP BUILDING. KEEP LEARNING.</text>
+   <text x="600" y="179" font-size="20" font-weight="700" letter-spacing="3" fill="#60a5fa">KEEP EXPLORING_</text>
+ </g>
+ <rect class="cursor" x="737" y="163" width="11" height="17" fill="#fb7185"/>
+ <g fill="#071225">
+  <path d="M0 230V205H56V182H86V213H119V197H145V230M1050 230V203H1092V183H1128V213H1168V194H1200V230"/>
+ </g>
+ <text x="34" y="216" font-family="monospace" font-size="11" fill="#fb7185" opacity=".72">WEB://NILOJAN</text>
+ <text x="1040" y="216" font-family="monospace" font-size="11" fill="#93c5fd" opacity=".75">STATUS: HERO MODE</text>
 </g>
-<rect x="1" y="1" width="1198" height="193" rx="18" fill="none" stroke="#38bdf8" stroke-opacity=".40" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="228" rx="18" fill="none" stroke="url(#electric)" stroke-opacity=".65" stroke-width="2"/>
 </svg>
